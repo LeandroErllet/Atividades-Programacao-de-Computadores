@@ -1,3 +1,10 @@
+"""Dados o valor de uma conta em um restaurante (valor inteiro) e o valor do
+pagamento, apresente o número mínimo de cédulas e moedas que deve ser
+retornado como troco (fase2: mostre apenas as cédulas e moedas que devem ser
+devolvidas no troco).
+"""
+
+
 notas = [100, 50, 20, 10, 5, 2, 1]  # uma lista com todas as notas.
 moedas = [0.50, 0.25, 0.10, 0.05]  # uma lista com todas as moedas.
 conta = float(input("quanto deu a conta?"))  # pergunta quanto deu a conta.
